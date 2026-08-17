@@ -16,7 +16,7 @@ used by SPV / Neutrino light clients.
 ## Gradle
 
 ```kotlin
-implementation("org.bitcoin.kmp:bitcoin-headers:0.0.1")
+implementation("io.bluewallet:bitcoin-headers:0.0.1")
 ```
 
 Package: `org.bitcoin.headers`

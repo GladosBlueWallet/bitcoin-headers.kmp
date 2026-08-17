@@ -1,4 +1,4 @@
-package org.bitcoin.headers
+package io.bluewallet.headers
 
 import org.kotlincrypto.hash.sha2.SHA256
 

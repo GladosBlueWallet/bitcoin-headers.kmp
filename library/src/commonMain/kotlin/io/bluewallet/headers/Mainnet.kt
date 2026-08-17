@@ -1,4 +1,4 @@
-package org.bitcoin.headers
+package io.bluewallet.headers
 
 /**
  * Mainnet difficulty-boundary checkpoint. The raw header was independently

@@ -16,17 +16,17 @@ used by SPV / Neutrino light clients.
 ## Gradle
 
 ```kotlin
-implementation("org.bitcoin.kmp:bitcoin-headers:0.0.1")
+implementation("io.bluewallet:bitcoin-headers:0.0.1")
 ```
 
-Package: `org.bitcoin.headers`
+Package: `io.bluewallet.headers`
 
 ## Usage
 
 ```kotlin
-import org.bitcoin.headers.MAINNET_HEADER_CONSENSUS
-import org.bitcoin.headers.validateHeaderChain
-import org.bitcoin.headers.HeaderRecord
+import io.bluewallet.headers.MAINNET_HEADER_CONSENSUS
+import io.bluewallet.headers.validateHeaderChain
+import io.bluewallet.headers.HeaderRecord
 
 val chain = validateHeaderChain(
     headers,
@@ -43,13 +43,13 @@ in place of JavaScript `bigint`.
 ## Tests
 
 ```bash
-./gradlew :library:jvmTest :library:linuxX64Test
+./gradlew :bitcoin-headers:jvmTest :bitcoin-headers:linuxX64Test
 ```
 
 On macOS, iOS simulator tests:
 
 ```bash
-./gradlew :library:iosSimulatorArm64Test
+./gradlew :bitcoin-headers:iosSimulatorArm64Test
 ```
 
 Coverage includes:

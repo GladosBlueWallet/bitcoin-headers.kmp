@@ -14,4 +14,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "bitcoin-headers"
-include(":library")
+include(":bitcoin-headers")
+project(":bitcoin-headers").projectDir = file("library")

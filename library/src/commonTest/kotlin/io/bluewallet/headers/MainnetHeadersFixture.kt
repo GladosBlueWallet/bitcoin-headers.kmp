@@ -1,4 +1,4 @@
-package org.bitcoin.headers
+package io.bluewallet.headers
 
 /** Ported from bitcoin-headers testdata/mainnet-headers.json (128 synced mainnet headers). */
 internal object MainnetHeadersFixture {

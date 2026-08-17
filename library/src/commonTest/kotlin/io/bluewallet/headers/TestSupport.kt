@@ -1,4 +1,4 @@
-package org.bitcoin.headers
+package io.bluewallet.headers
 
 import com.ionspin.kotlin.bignum.integer.BigInteger
 import kotlin.test.assertFails

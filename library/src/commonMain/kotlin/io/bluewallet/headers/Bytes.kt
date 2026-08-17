@@ -1,4 +1,4 @@
-package org.bitcoin.headers
+package io.bluewallet.headers
 
 public fun equalBytes(a: ByteArray, b: ByteArray): Boolean {
     if (a.size != b.size) return false

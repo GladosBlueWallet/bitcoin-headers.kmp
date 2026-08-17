@@ -19,14 +19,14 @@ used by SPV / Neutrino light clients.
 implementation("io.bluewallet:bitcoin-headers:0.0.1")
 ```
 
-Package: `org.bitcoin.headers`
+Package: `io.bluewallet.headers`
 
 ## Usage
 
 ```kotlin
-import org.bitcoin.headers.MAINNET_HEADER_CONSENSUS
-import org.bitcoin.headers.validateHeaderChain
-import org.bitcoin.headers.HeaderRecord
+import io.bluewallet.headers.MAINNET_HEADER_CONSENSUS
+import io.bluewallet.headers.validateHeaderChain
+import io.bluewallet.headers.HeaderRecord
 
 val chain = validateHeaderChain(
     headers,

@@ -1,4 +1,4 @@
-package org.bitcoin.headers
+package io.bluewallet.headers
 
 public data class BlockHeader(
     val version: Int,

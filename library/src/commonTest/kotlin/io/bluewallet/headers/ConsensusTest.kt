@@ -1,4 +1,4 @@
-package org.bitcoin.headers
+package io.bluewallet.headers
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

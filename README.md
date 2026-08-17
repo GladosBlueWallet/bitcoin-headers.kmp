@@ -43,13 +43,13 @@ in place of JavaScript `bigint`.
 ## Tests
 
 ```bash
-./gradlew :library:jvmTest :library:linuxX64Test
+./gradlew :bitcoin-headers:jvmTest :bitcoin-headers:linuxX64Test
 ```
 
 On macOS, iOS simulator tests:
 
 ```bash
-./gradlew :library:iosSimulatorArm64Test
+./gradlew :bitcoin-headers:iosSimulatorArm64Test
 ```
 
 Coverage includes:
